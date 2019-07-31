@@ -1,6 +1,6 @@
 ## Javascript 30
 
-#### 30 simple projects built with vanilla JS. Based on course by Wes Bos.
+30 simple projects built with vanilla JS. Based on course by Wes Bos.
 
 ### 1. JS Drumkit
 
