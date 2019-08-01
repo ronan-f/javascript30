@@ -9,3 +9,7 @@
 ### 2. JS + CSS Clock
 
 ![Clock screenshot](https://i.imgur.com/N8qq069.png)
+
+### 3. CSS Variables
+
+![Project screenshot](https://i.imgur.com/nD1WPR4.png)
