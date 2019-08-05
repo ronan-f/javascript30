@@ -19,7 +19,7 @@
 ![Project screenshot](https://i.imgur.com/SnyEoJW.png)
 
 ### 5. Flex Panels
+[Live Demo](https://ronan-f.github.io/flex-panels)
 
 ![Project screenshot](https://i.imgur.com/1Ri6dtG.png)
-[Live Demo](https://ronan-f.github.io/flex-panels)
 
