@@ -14,7 +14,11 @@
 
 ![Project screenshot](https://i.imgur.com/nD1WPR4.png)
 
-### 4. Array cardio
+### 4. Array Cardio
 
 ![Project screenshot](https://i.imgur.com/SnyEoJW.png)
+
+### 5. Flex Panels
+
+![Project screenshot](https://i.imgur.com/1Ri6dtG.png)
 
