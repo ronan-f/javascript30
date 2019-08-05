@@ -21,4 +21,5 @@
 ### 5. Flex Panels
 
 ![Project screenshot](https://i.imgur.com/1Ri6dtG.png)
+[Live Demo](https://ronan-f.github.io/flex-panels)
 
