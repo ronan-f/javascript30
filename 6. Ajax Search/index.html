@@ -26,23 +26,39 @@
       .then(res => res.json())
       .then(data => cities.push(...data));
 
-    function findMatches(e) {
+    function findMatches(search) {
+      search = search.toLowerCase();
       return cities.filter(({
-        city
+        city,
+        state
       }) => {
-        return city.includes(e.target.value);
+        return city.toLowerCase().includes(search) || state.toLowerCase().includes(search);
       })
     }
 
     function displayMatches() {
-      console.log(this.value)
+      const matchArr = findMatches(this.value)
+
+      const html = matchArr.map(({
+        city,
+        state,
+        population
+      }) => {
+        return `
+        <li>
+          <span class="name">${city}, ${state}</span>
+          <span class="population">Population: ${population}</span>
+        </li>
+        `
+      }).join("");
+      suggestions.innerHTML = html;
     }
 
     const searchInput = document.querySelector(".search");
     const suggestions = document.querySelector(".suggestions");
 
-    searchInput.addEventListener("change", findMatches);
-    searchInput.addEventListener("keyup", findMatches);
+    searchInput.addEventListener("change", displayMatches);
+    searchInput.addEventListener("keyup", displayMatches);
   </script>
 </body>
 
