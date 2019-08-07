@@ -11,7 +11,7 @@
 ![Clock screenshot](https://i.imgur.com/N8qq069.png)
 
 ### 3. CSS Variables
-<a href="https://ronan-f.github.io/css-variables" target="_blank">Live Demo</a>
+<a target="_blank" href="https://ronan-f.github.io/css-variables" >Live Demo</a>
 
 ![Project screenshot](https://i.imgur.com/nD1WPR4.png)
 
@@ -20,10 +20,11 @@
 ![Project screenshot](https://i.imgur.com/SnyEoJW.png)
 
 ### 5. Flex Panels
-<a href="https://ronan-f.github.io/flex-panels" target="_blank">Live Demo</a>
+<a target="_blank" href="https://ronan-f.github.io/flex-panels">Live Demo</a>
 
 ![Project screenshot](https://i.imgur.com/1Ri6dtG.png)
 
 ### 6. Ajax Search
+<a target="_blank" href="https://ronan-f.github.io/search">Live Demo</a>
 
 ![Project screenshot](https://i.imgur.com/KuJ2mQB.png)
