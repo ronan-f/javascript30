@@ -44,9 +44,11 @@
         state,
         population
       }) => {
+        const regex = new RegExp(this.value, "gi");
+        const cityName = city.replace(regex, `<span class="hl">${this.value}</span>`)
         return `
         <li>
-          <span class="name">${city}, ${state}</span>
+          <span class="name">${cityName}, ${state}</span>
           <span class="population">Population: ${population}</span>
         </li>
         `
