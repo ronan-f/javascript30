@@ -24,3 +24,6 @@
 
 ![Project screenshot](https://i.imgur.com/1Ri6dtG.png)
 
+### 6. Ajax Search
+
+![Project screenshot](https://i.imgur.com/KuJ2mQB.png)
