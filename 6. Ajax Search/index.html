@@ -25,6 +25,24 @@
     fetch(endpoint)
       .then(res => res.json())
       .then(data => cities.push(...data));
+
+    function findMatches(e) {
+      return cities.filter(({
+        city
+      }) => {
+        return city.includes(e.target.value);
+      })
+    }
+
+    function displayMatches() {
+      console.log(this.value)
+    }
+
+    const searchInput = document.querySelector(".search");
+    const suggestions = document.querySelector(".suggestions");
+
+    searchInput.addEventListener("change", findMatches);
+    searchInput.addEventListener("keyup", findMatches);
   </script>
 </body>
 
