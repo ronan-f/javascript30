@@ -29,6 +29,11 @@
 
 ![Project screenshot](https://i.imgur.com/KuJ2mQB.png)
 
-### 6. Array Cardio 2
+### 7. Array Cardio 2
 
 ![Project screenshot](https://i.imgur.com/FeJycfR.png)
+
+### 8. HTML Canvas
+<a target="_blank" href="https://ronan-f.github.io/draw">Live Demo</a>
+
+![Project screenshot](https://i.imgur.com/e9wk7qc.png)
