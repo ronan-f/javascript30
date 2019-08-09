@@ -40,7 +40,13 @@
       [lastX, lastY] = [x, y]
 
       hue++;
+      if (hue > 360) hue = 0;
 
+      cntxt.lineWidth++;
+
+      if (cntxt.lineWidth > 50) {
+        cntxt.lineWidth = 1;
+      }
     }
 
     canvas.addEventListener("mousemove", draw);
