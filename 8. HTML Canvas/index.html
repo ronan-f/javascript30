@@ -22,9 +22,12 @@
     let isDrawing = false;
     let lastX = 0;
     let lastY = 0;
+    let hue = 0;
 
     function draw(e) {
       if (!isDrawing) return;
+
+      cntxt.strokeStyle = `hsl(${hue}, 100%, 50%)`;
 
       const x = e.offsetX;
       const y = e.offsetY;
@@ -35,6 +38,8 @@
       cntxt.stroke();
 
       [lastX, lastY] = [x, y]
+
+      hue++;
 
     }
 
