@@ -18,6 +18,16 @@
     cntxt.strokeStyle = "#BADA55";
     cntxt.lineJoin = "round";
     cntxt.lineCap = "round";
+
+    let isDrawing = false;
+    let lastX = 0;
+    let lastY = 0;
+
+    function draw(e) {
+      console.log(e);
+    }
+
+    canvas.addEventListener("mousemove", draw);
   </script>
 
   <style>
