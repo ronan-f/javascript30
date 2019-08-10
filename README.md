@@ -33,7 +33,7 @@
 
 ![Project screenshot](https://i.imgur.com/FeJycfR.png)
 
-### 8. HTML Canvas
-<a target="_blank" href="https://ronan-f.github.io/draw">Live Demo</a>
+### 8. Drawing with HTML Canvas
+<a target="_blank" href="https://i.imgur.com/Li0GVkI.png">Live Demo</a>
 
 ![Project screenshot](https://i.imgur.com/e9wk7qc.png)
