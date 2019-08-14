@@ -37,3 +37,11 @@
 <a target="_blank" href="https://ronan-f.github.io/draw">Live Demo</a>
 
 ![Project screenshot](https://i.imgur.com/Li0GVkI.png)
+
+### 8. Drawing with HTML Canvas
+<a target="_blank" href="https://ronan-f.github.io/draw">Live Demo</a>
+
+### 9. Checking Multiple Boxes
+
+![Project screenshot](https://i.imgur.com/LcMlJOD.png)
+
